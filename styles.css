@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.katta {
+    position: relative;
+    width: 600px;
+    height: 30px;
+    border-radius: 50px;
+    margin-top: 300px;
+    margin-right: 300px;
+    background-color: rgb(206, 122, 14);
+}
+
+.katta::after {
+    content: "";
+    position: absolute;
+    width: 30px;
+    top: -100px;
+    right: 113px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: gray;
+}
+
+.kalla {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    background-color: rgb(177, 175, 175);
+    border-radius: 50%;
+    top: -125px;
+    left: 90px;
+}
+
+.kalla::before {
+    content: "";
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    top: -60px;
+    border: 15px solid rgb(177, 175, 175);
+    border-radius: 50%;
+    background-color: rgb(206, 166, 166);
+}
+
+.kalla::after {
+    content: "";
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    top:25px;
+    right: 110px;
+    border: 15px solid rgb(177, 175, 175);
+    border-radius: 50%;
+    background-color: rgb(206, 166, 166);
+}
+
+.koz {
+    position: relative;
+    width: 30px;
+    height: 25px;
+    border-radius: 50%;
+    top: -220px;
+    left: 120px;
+    transform: rotate(-30deg);
+    border-bottom: 5px solid black;
+    background-color:rgb(177, 175, 175);
+}
+
+.koz::before {
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 20px;
+    border-radius: 50%;
+    top: px;
+    left: 60px;
+    transform: rotate(-20deg);
+    border-bottom: 5px solid black;
+    background-color:rgb(177, 175, 175);
+}
+
+.koz::after {
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+    width: 40px;
+    height: 50px;
+    top: 20px;
+    left: 25px;
+    transform: rotate(-10deg);
+    background-color: black;
+}
+
+.oyoq {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    top: -240px;
+    left: 200px;
+    border-radius: 50%;
+    background-color: rgb(206, 166, 166);
+}
+
+.oyoq::before {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 45px;
+    border-radius: 50px;
+    right: 40px;
+    top: 70px;
+    z-index: -10;
+    background-color: gray;
+}
+
+.oyoq::after {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 45px;
+    border-radius: 50px;
+    left: 130px;
+    top: 70px;
+    z-index: -10;
+    background-color: gray;
+}
+
+
+.qorin {
+    content: "";
+    position: absolute;
+    width: 300px;
+    top: -180px;
+    right: 130px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: gray;
+}
+
+.qorin::before {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 80px;
+    top: 160px;
+    left: 220px;
+    border-radius: 20px;
+    transform: rotate(-20deg);
+    background-color: gray;
+}
+
+.qorin::after {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 80px;
+    top: 160px;
+    left: 50px;
+    border-radius: 20px;
+    background-color: gray;
+}
